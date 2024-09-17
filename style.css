@@ -1,0 +1,85 @@
+h1 {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainsection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#task {
+    font-size: 2em;
+    padding: 10px;
+    width: 50em;
+
+}
+
+#add {
+    color: white;
+    background-color: rgb(200, 40, 200);
+    border: 1px solid rgb(200, 40, 200);
+    margin-top: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.5em;
+    width: 4em;
+
+}
+
+#add:hover {
+    background-color: rgb(167, 26, 167);
+}
+
+#mainsection2 {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    padding: 2em;
+    background-color: rgb(128, 128, 128, 0.1);
+
+}
+
+#mainsection2 div {
+    display: flex;
+    padding: 1em;
+    background-color: white;
+    margin-bottom: 1em;
+
+}
+
+#mainsection2 div p {
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+#mainsection2 div button {
+    cursor: pointer;
+    margin-left: auto;
+    background-color: rgb(29, 146, 192);
+    border: 1px solid rgb(29, 146, 192);
+    color: white;
+}
+
+#mainsection2 div button:hover {
+    background-color: rgb(20, 129, 172);
+
+}
